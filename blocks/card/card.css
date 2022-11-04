@@ -1,0 +1,9 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "photo text"
+}
+
+.card:nth-child(2) {
+    grid-template-areas: "text photo"
+}
