@@ -4,3 +4,22 @@
     line-height: 1.2;
     font-weight: 600;
 }
+
+@media screen and (max-width: 1200px) {
+    .card__title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .card__title {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card__title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+}

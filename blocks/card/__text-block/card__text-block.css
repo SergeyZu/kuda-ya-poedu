@@ -1,9 +1,33 @@
 .card__text-block {
     grid-area: text;
-    padding: 100px 300px 130px 110px;
-    background-color: #f2f2f2;
+    padding: 100px 110px 130px;
+    /*background-color: #f2f2f2;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+@media screen and (max-width: 1520px) {
+    .card__text-block {
+        padding: 70px 80px 90px;
+    }
+  }
+  
+@media screen and (max-width: 1200px) {
+    .card__text-block {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .card__text-block {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card__text-block {
+        padding: 30px 50px 90px;
+    }
 }

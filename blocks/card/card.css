@@ -1,9 +1,18 @@
 .card {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-areas: "photo text"
+    grid-template-areas: "photo text";
+    background-color: #f2f2f2;
 }
 
 .card:nth-child(2) {
     grid-template-areas: "text photo"
 }
+
+@media screen and (max-width: 800px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+}
+  
